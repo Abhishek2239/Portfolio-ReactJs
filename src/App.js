@@ -1,25 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import styles from './App.module.css';
+import Portfolio from './components/portfolio/portfolio'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <main className={styles.App}>
+
+        <section id='' className={styles.section}></section>
+
+        <section id="portfolio" className={styles.section}>
+          <Portfolio/>
+        </section>
+
+        <section id='' className={styles.section}></section>
+        
+      </main>
+    </>
   );
 }
 
