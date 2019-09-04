@@ -1,6 +1,7 @@
 import React from 'react';
 import PortfolioItem from './portfolioItem/portfolioItem'
-
+import './portfolio.css';
+import '../../css/utilities.css'
 
 const Portfolio = () => {
 
@@ -28,47 +29,43 @@ const Portfolio = () => {
             imageSrc: "images/pokedex.png"
         },
         {
-            title: 'Portfolio',
-            description: `I first scraped the required data of pokemons from 
-            Pokemon.com using python(bs4 and selenium) and saved it in a csv 
-            file.Then with (papa parser) I parsed that data to create Pokecard Components
-            for 809 pokemons.You can search pokemons by generations , name, type.
-            On clicking the card pokemon's sound is played`,
-            tech: 'Reactjs - Css',
-            githublink: 'https://github.com/Abhishek2239/Portfolio-ReactJs',
-            visitlink: 'https://abhishekcodes.in/',
-            imageSrc: "images/fidalgo.png"
-        },
-        {
             title: 'ToDo-List',
-            description: `I first scraped the required data of pokemons from 
-            Pokemon.com using python(bs4 and selenium) and saved it in a csv 
-            file.Then with (papa parser) I parsed that data to create Pokecard Components
-            for 809 pokemons.You can search pokemons by generations , name, type.
-            On clicking the card pokemon's sound is played`,
-            tech: 'Reactjs - Bootstrap',
+            description: `A simple react js app to manage a list of tasks, tasks can be deleted or updated with their respective
+            buttons. This app used react hooks to manage the data of the list`,
+            tech: 'Reactjs - css',
             githublink: 'https://github.com/Abhishek2239/ToDoList-ReactJs',
             visitlink: 'https://todo.abhishekcodes.in/',
-            imageSrc: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"
+            imageSrc: "images/todo.png"
         },
+        {
+            title: 'Portfolio',
+            description: `The very own website which you are browsing right now is made using Reactjs. I wanted to make
+            a reusable component for portfolio item so that I could add as many items as I wanted.For a fresh design I sticked
+            to a white and a pink gradient combination`,
+            githublink: 'https://github.com/Abhishek2239/Portfolio-ReactJs',
+            visitlink: 'https://abhishekcodes.in/',
+            imageSrc: "images/portfolio.png"
+        },
+       
 
         {
             title: 'BudgetApp',
-            description: `I first scraped the required data of pokemons from 
-            Pokemon.com using python(bs4 and selenium) and saved it in a csv 
-            file.Then with (papa parser) I parsed that data to create Pokecard Components
-            for 809 pokemons.You can search pokemons by generations , name, type.
-            On clicking the card pokemon's sound is played`,
+            description: `A vanilla javascript app which uses IIFEs and some public functions associated with them.
+            There are different controllers function which handles budget,ui,and other operationa of the app.
+            I incorporated SASS to it , although its not a big application, I implemented 7-1 Architecture`,
             tech: 'VANILLA JAVASCRIPT - SASS',
             githublink: 'https://github.com/Abhishek2239/Budget-App-V1',
             visitlink: 'https://budget.abhishekcodes.in/',
-            imageSrc: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80"
+            imageSrc: "images/budget.png"
         },
         
     ]
 
     return (
-        <>
+        <><div className='portfolio-heading'>
+        <h2 className='primary-heading'>Portfolio</h2>
+        <h3 className='secondary-heading'>Check out what I have been coding recently</h3>
+        </div>
             {arr.map(item => {
                 return (
                     <PortfolioItem

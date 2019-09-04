@@ -1,0 +1,69 @@
+
+.mobile-menu{
+    font-size: 3.5rem;
+    display: none;
+    user-select: none;
+    z-index: 20;
+    transition: all .2s;
+}
+
+
+@media (max-width:1024px){
+   
+    .mobile-menu{
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin: 3rem 3rem;
+
+    }
+
+    
+}
+
+@media (max-width:480px){
+   
+    .mobile-menu{
+        font-size: 2.5rem;
+        margin:2rem 2rem;
+
+    }
+
+    
+}
+
+
+
+@media (max-width:375px){
+   
+    .mobile-menu{
+        
+        margin:1.6rem 1.6rem;
+
+    }
+
+    
+}
+
+@media (max-width:360px){
+   
+    .mobile-menu{
+        
+        margin:1.5rem 1.5rem;
+
+    }
+
+    
+}
+
+@media (max-width:320px){
+   
+    .mobile-menu{
+        
+        margin:1rem 1rem;
+
+    }
+
+    
+}
