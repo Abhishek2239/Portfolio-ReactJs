@@ -31,7 +31,7 @@ const Portfolio = () => {
         {
             title: 'ToDo-List',
             description: `A simple react js app to manage a list of tasks, tasks can be deleted or updated with their respective
-            buttons. This app used react hooks to manage the data of the list`,
+            buttons. A Modal appears on editing the task. This app used react hooks to manage the data of the list`,
             tech: 'Reactjs - css',
             githublink: 'https://github.com/Abhishek2239/ToDoList-ReactJs',
             visitlink: 'https://todo.abhishekcodes.in/',
@@ -42,6 +42,7 @@ const Portfolio = () => {
             description: `The very own website which you are browsing right now is made using Reactjs. I wanted to make
             a reusable component for portfolio item so that I could add as many items as I wanted.For a fresh design I sticked
             to a white and a pink gradient combination`,
+            tech: 'Reactjs - css',
             githublink: 'https://github.com/Abhishek2239/Portfolio-ReactJs',
             visitlink: 'https://abhishekcodes.in/',
             imageSrc: "images/portfolio.png"

@@ -43,7 +43,7 @@ const About = () => {
           <i className="fab fa-css3" aria-hidden="true" />  CSS3<br/>
           <i className="fab fa-js-square" />  JAVASCRIPT&nbsp;	&nbsp;	&nbsp;	
           <i className="fab fa-sass" />  SASS<br/>
-          <i className="fab fa-react" />  REACTJS ( REDUX - GRAPHQL - GATSBY )
+          <i className="fab fa-react" />  REACTJS ( HOOKS , REACT - ROUTER , REDUX )
         </p>
       </div>
     </>
