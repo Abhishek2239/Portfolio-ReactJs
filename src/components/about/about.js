@@ -45,6 +45,12 @@ const About = () => {
           <i className="fab fa-sass" />  SASS<br/>
           <i className="fab fa-react" />  REACTJS ( HOOKS , REACT - ROUTER , REDUX )
         </p>
+
+        <h3 className="resume-heading">
+          My Resume<br/> <i class="fas fa-arrow-down"></i>
+        </h3>
+       
+       <a className="resume-link" href='/ML1.pdf' target='_blank'><i class="fas fa-file-pdf">  Resume.pdf</i></a> 
       </div>
     </>
   );

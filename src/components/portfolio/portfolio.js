@@ -23,7 +23,7 @@ const Portfolio = () => {
             file.Then with (papa parser) I parsed that data to create Pokecard Components
             for 809 pokemons.You can search pokemons by generations , name, type.
             On clicking the card pokemon's sound is played`,
-            tech: 'Reactjs - Python ( Selenium,Bs4 ) - Css',
+            tech: 'Reactjs , Python ( Selenium,Bs4 ) ,   Css',
             githublink: 'https://github.com/Abhishek2239/Pokedex-ReactJs',
             visitlink: 'https://pokedex.abhishekcodes.in/',
             imageSrc: "images/pokedex.png"
@@ -32,7 +32,7 @@ const Portfolio = () => {
             title: 'ToDo-List',
             description: `A simple react js app to manage a list of tasks, tasks can be deleted or updated with their respective
             buttons. A Modal appears on editing the task. This app used react hooks to manage the data of the list`,
-            tech: 'Reactjs - css',
+            tech: 'Reactjs , Css',
             githublink: 'https://github.com/Abhishek2239/ToDoList-ReactJs',
             visitlink: 'https://todo.abhishekcodes.in/',
             imageSrc: "images/todo.png"
@@ -42,7 +42,7 @@ const Portfolio = () => {
             description: `The very own website which you are browsing right now is made using Reactjs. I wanted to make
             a reusable component for portfolio item so that I could add as many items as I wanted.For a fresh design I sticked
             to a white and a pink gradient combination`,
-            tech: 'Reactjs - css',
+            tech: 'Reactjs , Css',
             githublink: 'https://github.com/Abhishek2239/Portfolio-ReactJs',
             visitlink: 'https://abhishekcodes.in/',
             imageSrc: "images/portfolio.png"
@@ -58,6 +58,16 @@ const Portfolio = () => {
             githublink: 'https://github.com/Abhishek2239/Budget-App-V1',
             visitlink: 'https://budget.abhishekcodes.in/',
             imageSrc: "images/budget.png"
+        },
+        {
+            title: 'Budger-Builder',
+            description: `This app incorporates all the main technologies associated with reactjs like react-router,
+            react-redux.This project was a part of the course.It generates a burger on user input and after ordering,
+            the order details are stored on the Firebase Database`,
+            tech: 'Reactjs , React-Redux , React-Router , Firebase',
+            githublink: 'https://github.com/Abhishek2239/BurgerBuilder-ReactJs',
+            visitlink: 'https://burger.abhishekcodes.in/',
+            imageSrc: "images/burger.png"
         },
         
     ]
